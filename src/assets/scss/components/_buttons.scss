@@ -1,0 +1,20 @@
+@use '../abstracts/mixins' as *;
+
+.button {
+  @include button-reset;
+  padding: 8px 16px;
+  background-color: #3498db;
+  color: #fff;
+  font-size: 14px;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+
+  &:hover {
+    background-color: #6499bc;
+  }
+
+  &:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+}

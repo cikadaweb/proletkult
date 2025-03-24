@@ -1,0 +1,24 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  min-width: 1024px;
+  font-family: 'PT Astra Sans', sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 19px;
+  line-height: 19px;
+  background-color: #ffffff;
+  color: #000000;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.link {
+  text-decoration: none;
+  color: inherit;
+}
